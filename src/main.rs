@@ -18,7 +18,7 @@ enum Block {
     S,
     Square
 }
-    
+
 impl Block {
 
     fn draw(self, mut out: &mut termion::raw::RawTerminal<std::io::Stdout>) {
